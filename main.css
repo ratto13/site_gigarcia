@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #bd9060;
+    padding: 16px 0px;
+    border-bottom: 2px solid #f9f295;
+}
+
+header h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 50px;
+}
+
+header nav a{
+    margin-left: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+}
+
+header nav a:hover{
+    text-decoration: underline #f9f295;
+}
+
+.header-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    max-width: 1280px;
+    width: 100%;
+    margin: 24px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: "Dancing Script", cursive;
+
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: "Merriweather", serif;
+}
+
+.about-texto {
+    display: block;
+}
+
+.foto-loja {
+    height: 420px;
+    margin-right: 24px;
+    border: 2px solid #f9f295;
+}
+
+
+
+.about-texto li{
+    display: inline;
+}
+
+
+
+.about-texto img {
+    height: 56px;
+}
+
+.logos {
+    justify-content: center;
+}
+
+
+section h3 {
+    margin-bottom: 16px;
+    font-family: "Dancing Script", cursive;
+    color: #bd9060;
+}
+
+
+#contact .container {
+    display: block;
+
+}
+
+.metodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: block;
+    border-top: 2px solid #bd9060;
+    padding-top: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato p {
+    font-size: 12px;
+
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: solid #bd9060;
+}
+
+input,
+textarea {
+    font-family: "Merriweather", serif;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #bd9060;
+    border: #f9f295;
+    font-family: "Dancing Script", cursive;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #e7af73;
+}
+
+
+.social-links img {
+    height: 24px;
+    margin-right: 8px;
+
+}
+
+.tel-logos img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+
+.social-links li a {
+    text-decoration: none; 
+}
+
+
+
+ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    background-color: #bd9060;
+    width: 100%;
+}
+
+footer p {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}   
